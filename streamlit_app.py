@@ -13,8 +13,8 @@ st.write(
 )
 
 client = OpenAI(
-    api_key=st.secrets["XAI_API_KEY"],
-    base_url="https://api.x.ai/v1",
+    api_key=st.secrets["OPENROUTER_API_KEY"],
+    base_url="https://openrouter.ai/api/v1",
 )
 
 with open('assets/prompt.txt') as f:
